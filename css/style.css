@@ -1,0 +1,23 @@
+body{
+  text-align: center;
+}
+
+h1{
+  font-size: 130px;
+  letter-spacing: 3px;
+  font-family: 'Amatic SC', cursive;
+}
+
+p{
+  font-size: 25px;
+  font-family: 'Didact Gothic', sans-serif;
+}
+
+a {
+  color: #5D576B;
+  margin: 5px;
+}
+
+a:hover {
+  color: #3D9970;
+}
