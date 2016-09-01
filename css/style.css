@@ -1,10 +1,13 @@
-body{
-  text-align: center;
+body {
+  height: 100%;
 }
 
-#wrapper {
+#intro-section {
   opacity: .8;
-  margin: 10px auto;
+  margin: 0px auto;
+  padding-top: 10%;
+  text-align: center;
+  height: 100%;
 }
 
 #name h1{
@@ -19,7 +22,7 @@ body{
   border: 5px solid #218868;
 }
 
-#intro {
+#who {
   font-size: 20px;
   font-family: 'Didact Gothic', sans-serif;
 }
@@ -36,4 +39,68 @@ body{
 
 #social-icons a:hover {
   color: #e5664d;
+}
+
+#arrow-down {
+  position: absolute;
+  bottom: 40px;
+  cursor: pointer;
+  color: #575757;
+}
+
+#projects-section{
+  font-family: 'Lato', sans-serif;
+  width: 950px;
+  margin: 0px auto;
+  font-size: 18px;
+}
+
+#dumpit, #wordtree {
+  padding-bottom: 80px;
+}
+
+
+#projects-section h1{
+  font-size: 50px;
+  text-transform: uppercase;
+}
+
+#projects-section h2{
+  font-variant: small-caps;
+  font-size: 30px;
+}
+
+#projects-section a{
+  color: #218868;
+  text-decoration: none;
+  font-family: 'Lato', sans-serif;
+  font-size: 15px;
+}
+
+#projects-section button{
+  background-color: white;
+  border: 1px solid #218868;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 0px;
+}
+
+#projects-section button:hover{
+  cursor: pointer;
+  background-color: #e5efe5;
+  transition: background 0.5s linear;
+  -webkit-transition: background 0.5s linear;
+}
+
+.location{
+  color: #A9A9A9;
+  font-weight: bold;
+  text-align: left;
+  margin-bottom: 30px;
+}
+
+img {
+  width: 300px;
+  height: 150px;
+  margin: 5px;
 }
