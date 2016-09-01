@@ -2,22 +2,38 @@ body{
   text-align: center;
 }
 
-h1{
-  font-size: 130px;
-  letter-spacing: 3px;
-  font-family: 'Amatic SC', cursive;
+#wrapper {
+  opacity: .8;
+  margin: 10px auto;
 }
 
-p{
-  font-size: 25px;
+#name h1{
+  font-size: 120px;
+  letter-spacing: 3px;
+  font-family: 'Amatic SC', cursive;
+  margin-bottom: 20px;
+}
+
+#separator {
+  width: 320px;
+  border: 5px solid #218868;
+}
+
+#intro {
+  font-size: 20px;
   font-family: 'Didact Gothic', sans-serif;
 }
 
-a {
-  color: #5D576B;
-  margin: 5px;
+#social-icons {
+  margin-top: 30px;
 }
 
-a:hover {
+#social-icons a {
+  color: #683A5E;
+  margin: 5px;
+  text-decoration: none;
+}
+
+#social-icons a:hover {
   color: #3D9970;
 }
