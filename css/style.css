@@ -1,13 +1,18 @@
-body {
+body, html {
+  height: 100%;
+  width: 100%;
+}
+
+.container, .row, .column {
   height: 100%;
 }
 
 #intro-section {
   opacity: .8;
-  margin: 0px auto;
   padding-top: 10%;
   text-align: center;
   height: 100%;
+  position: relative;
 }
 
 #name h1{
@@ -55,8 +60,6 @@ body {
 
 #projects-section{
   font-family: 'Lato', sans-serif;
-  width: 950px;
-  margin: 0px auto;
   font-size: 18px;
 }
 
