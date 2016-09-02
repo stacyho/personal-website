@@ -67,11 +67,14 @@ body, html {
   margin-bottom: 50px;
 }
 
-
 #projects-section h1{
   font-size: 50px;
   text-transform: uppercase;
   margin-bottom: 50px;
+}
+
+.title {
+  margin-bottom: 20px;
 }
 
 #projects-section h2{
@@ -88,20 +91,14 @@ body, html {
   font-size: 15px;
 }
 
-#projects-section button{
+.button{
   background-color: white;
   border: 1px solid #218868;
   border-radius: 5px;
   padding: 10px;
-  margin-bottom: 20px;
 }
 
-#projects-section button:focus {
-  outline: 0;
-}
-
-#projects-section button:hover{
-  cursor: pointer;
+.button:hover{
   background-color: #e5efe5;
   transition: background 0.5s linear;
   -webkit-transition: background 0.5s linear;
