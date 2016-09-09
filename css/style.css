@@ -1,66 +1,154 @@
 body, html {
   height: 100%;
   width: 100%;
+  font-family: 'Lato';
 }
 
 .container {
+  width: 100%;
   height: 100%;
+  margin: 0;
+  padding: 0;
 }
 
-#intro-section {
-  opacity: .8;
-  padding-top: 130px;
+/* NAVBAR */
+
+nav {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #4d4d4d;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+nav a {
+  float: right;
+}
+
+nav a:first-child{
+  float: left;
+}
+
+nav a {
+  display: inline-block;
   text-align: center;
-  height: 100%;
+  padding: 14px 16px;
+  text-decoration: none;
+  color: white;
+  font-family: 'Lato';
+}
+
+nav a:hover {
+  background-color: #111;
+  color: white;
+  text-decoration: none;
+}
+
+/* HOMEPAGE */
+
+#intro-section {
+  text-align: center;
   position: relative;
+  background-image: url("../img/sunset.jpg");
+  height: 100%;
+  width: 100%;
 }
 
 #name h1{
-  font-size: 60px;
-  font-family: 'Lato', sans-serif;
-  margin-bottom: 20px;
-}
-
-#separator {
-  width: 300px;
-  border: 2px solid #218868;
-}
-
-#who {
-  font-size: 20px;
-  font-family: 'Lato', sans-serif;
+  font-size: 80px;
+  font-family: 'Lato';
+  position: absolute;
+  left: 100px;
+  bottom: 300px;
+  color: white;
 }
 
 #social-icons {
-  margin-top: 30px;
+  position: absolute;
+  left: 185px;
+  bottom: 215px;
 }
 
 #social-icons a {
-  color: #683A5E;
+  color: white;
+  opacity: .6;
   margin: 5px;
   text-decoration: none;
 }
 
 #social-icons a:hover {
-  opacity: .8;
-  transition: opacity .3s;
+  opacity: 1;
 }
 
-#arrow-down {
-  position: absolute;
-  bottom: 15px;
-  cursor: pointer;
-  color: #575757;
+
+/* ABOUT ME PAGE */
+
+.about-me-page {
+  padding: 75px 100px;
+  background-color: #F2E0E0;
+  min-height: 100%;
 }
 
-#arrow-down:hover {
-  color: black;
-  transition: color .3s;
+.about-me-page h1{
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  text-align: center;
 }
+
+.about-me-page h2{
+  font-weight: bold;
+}
+
+.about-me-page p {
+  font-size: 18px;
+}
+
+.about-me-page ul {
+  padding-left: 20px;
+  list-style-type: circle
+}
+
+.about-me-page li{
+  font-size: 17px;
+}
+
+hr {
+  border: 1px solid white;
+  margin: 50px 0px;
+  clear: both;
+}
+
+#profile {
+  width: 150px;
+  margin: 0px auto 20px auto;
+  display: block;
+}
+
+#bio-section p {
+  width: 500px;
+  margin: 0px auto;
+}
+
+.about-me-page img{
+  width: 100px;
+  margin: 10px 0px;
+}
+
+#interests-section p{
+  font-size: 14px;
+}
+
+/* PROJECTS PAGE */
 
 #projects-section{
-  font-family: 'Lato', sans-serif;
+  font-family: 'Lato';
   font-size: 16px;
+  padding: 75px 100px;
+  background-color: #e5e5ed;
 }
 
 #dumpit, #wordtree {
@@ -68,19 +156,14 @@ body, html {
 }
 
 #projects-section h1{
-  font-size: 40px;
   text-transform: uppercase;
   margin-bottom: 50px;
   font-weight: bold;
-}
-
-.title {
-  margin-bottom: 20px;
+  text-align: center;
 }
 
 #projects-section h2{
   font-variant: small-caps;
-  font-size: 25px;
   font-weight: bold;
   margin-bottom: 20px;
 }
@@ -88,20 +171,12 @@ body, html {
 #projects-section a{
   color: #218868;
   text-decoration: none;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Lato';
   font-size: 15px;
 }
 
-.button{
-  background-color: white;
-  border: 1px solid #218868;
-  border-radius: 5px;
-  padding: 10px;
-}
-
-.button:hover{
-  background-color: #e5efe5;
-  transition: background 0.3s linear;
+#projects-section p{
+  line-height: 125%;
 }
 
 .location{
@@ -111,8 +186,14 @@ body, html {
   margin-bottom: 30px;
 }
 
-img {
+#wordtree img {
   width: 300px;
   height: 150px;
+  margin: 0px 5px 30px 0px;
+}
+
+#dumpit img {
+  width: 400px;
+  height: 200px;
   margin: 0px 5px 30px 0px;
 }
