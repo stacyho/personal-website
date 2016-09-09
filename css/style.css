@@ -52,7 +52,7 @@ nav a:hover {
 
 #intro-section {
   text-align: center;
-  position: relative;
+  position: absolute;
   background-image: url("../img/sunset.jpg");
   height: 100%;
   width: 100%;
@@ -61,16 +61,10 @@ nav a:hover {
 #name h1{
   font-size: 80px;
   font-family: 'Lato';
-  position: absolute;
-  left: 100px;
-  bottom: 300px;
   color: white;
-}
-
-#social-icons {
-  position: absolute;
-  left: 185px;
-  bottom: 215px;
+  position: relative;
+  padding-top: 200px;
+  padding-bottom: 20px;
 }
 
 #social-icons a {
@@ -91,6 +85,7 @@ nav a:hover {
   padding: 75px 100px;
   background-color: #F2E0E0;
   min-height: 100%;
+  width: 100%;
 }
 
 .about-me-page h1{
@@ -130,17 +125,17 @@ hr {
 }
 
 #bio-section p {
-  width: 500px;
+  max-width: 500px;
   margin: 0px auto;
-}
-
-.about-me-page img{
-  width: 100px;
-  margin: 10px 0px;
+  text-align: center;
 }
 
 #interests-section p{
   font-size: 14px;
+}
+
+#interests-section img{
+  width: 100px;
 }
 
 /* PROJECTS PAGE */
@@ -150,6 +145,8 @@ hr {
   font-size: 16px;
   padding: 75px 100px;
   background-color: #e5e5ed;
+  min-height: 100%;
+  width: 100%;
 }
 
 #dumpit, #wordtree {
@@ -187,14 +184,16 @@ hr {
   margin-bottom: 30px;
 }
 
-#wordtree img {
-  width: 300px;
-  height: 150px;
+#dumpit img {
+  width: 100%;
+  max-width: 400px;
+  max-height: 200px;
   margin: 0px 5px 30px 0px;
 }
 
-#dumpit img {
-  width: 400px;
-  height: 200px;
+#wordtree img {
+  width: 100%;
+  max-width: 300px;
+  max-height: 150px;
   margin: 0px 5px 30px 0px;
 }
