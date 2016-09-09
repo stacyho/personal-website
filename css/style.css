@@ -238,4 +238,8 @@ hr {
     #projects-section img{
       max-width: 100%;
     }
+
+    #intro-page h1 {
+      font-size: 50px;
+    }
 }
