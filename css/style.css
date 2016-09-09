@@ -39,10 +39,11 @@ nav a {
   text-decoration: none;
   color: white;
   font-family: 'Lato';
+  opacity: .7;
 }
 
 nav a:hover {
-  background-color: #111;
+  opacity: 1;
   color: white;
   text-decoration: none;
 }
