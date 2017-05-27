@@ -17,61 +17,68 @@
 <body>
   <div class="container">
     <nav>
-      <a href="index.html">Home</a>
       <a href="projects.html">Projects</a>
-      <a href="about.html">About Me</a>
+      <a href="index.html">Home</a>
     </nav>
     <section id="projects-section">
       <h1> Projects </h1>
       <hr>
-      <div class="row">
 
-        <div class="col-md-6">
-          <div id="dumpit">
-            <div class="title">
-              <h2> DumpIt </h2>
-            </div>
-            <div class="description">
-              <p> DumpIt is a web app that seeks to transform common complaints into startup ideas. It provides a platform where individuals can share their complaints and help fund start-ups that pledge to solve these problems.
-              </p>
-              <p> Built with HTML/CSS, JavaScript, and Handlebars.js for front-end, and Node.js, Express, and MongoDB for backend. Personally worked on front-end development. </p> 
-              <p> Teammate: Sherry Yang </p>
-              <p class="location"> MIT 6.148 Web Programming Competition | January 2016 </p>
-            </div>
-            <div class="images">
-              <img src="img/dumpit_welcome.png" alt="Welcome Page">
-              <img src="img/dumpit_homepage.png" alt="Home Page">
-              <img src="img/dumpit_userprofile.png" alt="User Profile">
-            </div>
-          </div> <!--/dumpit -->
+      <div id="babble" class="row project">
+        <div class="col-md-1"></div>
+        <div class="images col-md-4">
+          <img src="img/babble_login.png">
         </div>
-
-        <div class="col-md-6">
-          <div id="wordtree">
-            <div class="title">
-              <h2> WordTree </h2>
-            </div>
-            <div class="description">
-              <p> Word Tree is a Unity app designed to help children learn English letter-sound correspondence, sound blending, and sight word recognition. The idea originated from a literacy app prototype created for the Global Literacy Project.<p>
-              <p> Built for Android tablets using Unity game engine and MonoDevelop. </p>
-              <p class="location"> Personal Robots Group at MIT Media Lab | Summer 2015 </p>
-            </div>
-            <div class="images">
-              <img src="img/wordtree_intro.png" alt="Intro Scene">
-              <img src="img/wordtree_tree.png" alt="Tree Scene">
-              <p> &#8224; Themed levels </p>
-              <img src="img/wordtree_backyard.png" alt="Backyard Level">
-              <img src="img/wordtree_school.png" alt="School Level">
-              <p> &#8224; Mini-games </p>
-              <img src="img/wordtree_game1.png" alt="Matching Game">
-              <img src="img/wordtree_game2.png" alt="Spelling Game">
-            </div>
-          </div> <!--/wordtree -->
+        <div class="col-sm-6">
+          <div class="title">
+            <h2> Babble </h2>
+          </div>
+          <div class="description">
+            <p> Babble is a live, interactive platform where MIT students are encouraged to have candid conversations and can provide instant support to each other.
+            </p>
+            <p> Built with ReactJS, Node.js, and MongoDB. </p> 
+            <p class="location"> MIT 6.170 Software Studio | Fall 2016 </p>
+          </div>
         </div>
+      </div>
 
-      </div> <!--/row -->
-    </section> <!--/projects-section -->
-  </div> <!--/container -->
+      <div id="dumpit" class="row project">
+        <div class="col-md-1"></div>
+        <div class="images col-md-4">
+          <img src="img/dumpit_welcome.png">
+        </div>
+        <div class="col-sm-6">
+          <div class="title">
+            <h2> DumpIt </h2>
+          </div>
+          <div class="description">
+            <p> DumpIt is a web app that seeks to transform common complaints into startup ideas. It provides a platform where individuals can share their complaints and help fund start-ups that pledge to solve these problems.
+            </p>
+            <p> Built with Node.js, Express, and MongoDB. </p> 
+            <p class="location"> MIT 6.148 Web Programming Competition | January 2016 </p>
+          </div>
+        </div>
+      </div>
+
+      <div id="wordtree" class="row project">
+        <div class="col-md-1"></div>
+        <div class="images col-md-4">
+          <img src="img/wordtree_tree.png">
+        </div>
+        <div class="col-sm-6">
+          <div class="title">
+            <h2> WordTree </h2>
+          </div>
+          <div class="description">
+            <p> Word Tree is a Unity app designed to help children learn English letter-sound correspondence, sound blending, and sight word recognition. <p>
+            <p> Built for Android tablets using Unity game engine. </p>
+            <p class="location"> MIT Media Lab's Personal Robots Group | Summer 2015 </p>
+          </div>
+        </div>
+      </div>
+
+    </section> 
+  </div> 
 </body>
 
 </html>
